@@ -1,0 +1,46 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.conttainer-list {
+    width: 100%;
+}
+
+.list > p {
+    padding: 20px;
+    margin: 0;
+}
+
+.list:first-child {
+    margin: 50px 0 0 0;
+}
+
+.list:nth-child(odd) {
+    background-color: rgb(200, 200, 200);
+}
+
+
+.container-box {
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.box {
+    width: 30%;
+    height: 200px;
+    background-color: yellow;
+    margin: 0px 5% 40px 0;
+    padding: 0;
+    float: left;
+}
+
+.box:nth-child(3), .box:nth-child(6), .box:nth-child(9) {
+    margin: 0 0 40px 0;
+}
+
+.box:first-child, .box:last-child, .box:nth-child(5) {
+    background-color: orange;
+}
+
