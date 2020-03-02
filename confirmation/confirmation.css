@@ -130,6 +130,25 @@ main {
 
 }
 
+/* pagination */
+.pagination {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.pagination > p {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    color: white;
+    background-color: #acabab;
+    border-radius: 3px;
+    margin: 0 5px;
+    line-height: 30px;
+}
+
+/* pagination */
+
 /* sidebar *//* sidebar *//* sidebar *//* sidebar */
 .sidebar {
     width: 230px;
